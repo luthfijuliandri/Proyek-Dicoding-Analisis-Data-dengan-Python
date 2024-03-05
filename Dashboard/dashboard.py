@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-file_path = "C:/Users/mluth/OneDrive/Documents/Proyek Dicoding Analisis Data dengan Python/Dashboard/day_new.csv"
-df_day = pd.read_csv(file_path)
+df_day = pd.read_csv("https://raw.githubusercontent.com/luthfijuliandri/Proyek-Dicoding-Analisis-Data-dengan-Python/main/Dashboard/day_new.csv")
 
 
 st.write(df_day.head())
